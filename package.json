@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-sgcs",
+  "version": "1.0.0",
+  "description": "Sitio educativo SGCS - Sistemas de gestión de calidad de software",
+  "scripts": {
+    "test": "node pruebas/pruebas.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}

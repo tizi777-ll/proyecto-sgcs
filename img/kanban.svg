@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" width="640" height="260" role="img" aria-labelledby="t"><title id="t">Flujo Kanban con límite WIP</title>
+<rect width="640" height="260" fill="#fff"/>
+<g font-family="Arial, sans-serif" font-size="13" fill="#2d3b50" text-anchor="middle">
+<g fill="#f7f9fc" stroke="#dce3eb" stroke-width="2"><rect x="15" y="15" width="190" height="200" rx="6"/><rect x="225" y="15" width="190" height="200" rx="6" stroke="#d08b00"/><rect x="435" y="15" width="190" height="200" rx="6"/></g>
+<g font-weight="bold" font-size="15"><text x="110" y="42">Por hacer</text><text x="320" y="42">En proceso</text><text x="530" y="42">Hecho</text></g>
+<rect x="282" y="50" width="76" height="20" rx="10" fill="#fff4e0" stroke="#d08b00"/><text x="320" y="64" font-size="11" fill="#9a5b00" font-weight="bold">WIP máx. 2</text>
+<g fill="#fff" stroke="#dce3eb"><rect x="30" y="80" width="160" height="34" rx="4"/><rect x="30" y="122" width="160" height="34" rx="4"/><rect x="30" y="164" width="160" height="34" rx="4"/><rect x="240" y="80" width="160" height="34" rx="4"/><rect x="240" y="122" width="160" height="34" rx="4"/><rect x="450" y="80" width="160" height="34" rx="4"/></g>
+<g fill="#2d65ad"><rect x="30" y="80" width="5" height="34"/><rect x="30" y="122" width="5" height="34"/><rect x="30" y="164" width="5" height="34"/></g>
+<g fill="#d08b00"><rect x="240" y="80" width="5" height="34"/><rect x="240" y="122" width="5" height="34"/></g>
+<rect x="450" y="80" width="5" height="34" fill="#287447"/>
+<text x="112" y="102">Tarea C</text><text x="112" y="144">Tarea D</text><text x="112" y="186">Tarea E</text><text x="322" y="102">Tarea A</text><text x="322" y="144">Tarea B</text><text x="532" y="102">Tarea F ✓</text>
+<path d="M60 238 H580 M570 231 L581 238 L570 245" fill="none" stroke="#3268ad" stroke-width="2.5"/>
+<text x="320" y="254" font-size="12" fill="#5f6b7a">El trabajo fluye de izquierda a derecha</text>
+</g></svg>

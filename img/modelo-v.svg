@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="620" height="300" role="img" aria-labelledby="t"><title id="t">Modelo en V</title>
+<rect width="620" height="300" fill="#fff"/>
+<g font-family="Arial, sans-serif" font-size="14" fill="#2d3b50" text-anchor="middle">
+<path d="M100 40 L310 250 L520 40" fill="none" stroke="#c9d6e6" stroke-width="10" stroke-linejoin="round"/>
+<g stroke-dasharray="5 4" stroke="#8aa6c8" stroke-width="1.5"><path d="M175 35 H445"/><path d="M255 109 H365"/><path d="M335 183 H345"/></g>
+<g stroke="#3268ad" stroke-width="1.5" fill="#edf4fd"><rect x="25" y="18" width="150" height="34" rx="5"/><rect x="105" y="92" width="150" height="34" rx="5"/><rect x="185" y="166" width="150" height="34" rx="5"/></g>
+<g stroke="#39845b" stroke-width="1.5" fill="#e9f6ee"><rect x="445" y="18" width="150" height="34" rx="5"/><rect x="365" y="92" width="150" height="34" rx="5"/></g>
+<text x="100" y="40">Requisitos</text><text x="180" y="114">Diseño del sistema</text><text x="260" y="188">Diseño detallado</text>
+<text x="520" y="40">Pruebas de aceptación</text><text x="440" y="114">Pruebas de sistema</text>
+<rect x="345" y="166" width="150" height="34" rx="5" fill="#e9f6ee" stroke="#39845b" stroke-width="1.5"/><text x="420" y="188">Pruebas unitarias</text>
+<rect x="245" y="236" width="130" height="34" rx="5" fill="#2d65ad"/><text x="310" y="258" fill="#fff" font-weight="bold">Implementación</text>
+<text x="80" y="290" font-size="12" fill="#5f6b7a">Definición y diseño ↓</text><text x="540" y="290" font-size="12" fill="#5f6b7a">Verificación ↑</text>
+</g></svg>

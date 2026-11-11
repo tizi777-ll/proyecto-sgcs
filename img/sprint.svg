@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-labelledby="t"><title id="t">Ciclo del sprint en Scrum</title>
+<rect width="640" height="280" fill="#fff"/>
+<g font-family="Arial, sans-serif" font-size="13" fill="#2d3b50" text-anchor="middle">
+<g stroke="#3268ad" stroke-width="1.5" fill="#edf4fd">
+<rect x="15" y="110" width="110" height="60" rx="5"/><rect x="150" y="110" width="100" height="60" rx="5" fill="#e3edfb"/></g>
+<g fill="#2d3b50"><rect x="25" y="122" width="90" height="8" rx="2" fill="#8db5e7"/><rect x="25" y="135" width="90" height="8" rx="2" fill="#8db5e7"/><rect x="25" y="148" width="90" height="8" rx="2" fill="#8db5e7"/></g>
+<text x="70" y="190">Product Backlog</text>
+<text x="200" y="137">Sprint</text><text x="200" y="154">Planning</text>
+<text x="200" y="190">→ Sprint Backlog</text>
+<circle cx="365" cy="140" r="80" fill="none" stroke="#2d65ad" stroke-width="6"/>
+<path d="M440 120 L446 140 L430 132" fill="#2d65ad"/>
+<circle cx="365" cy="60" r="26" fill="#e9f6ee" stroke="#39845b" stroke-width="2"/>
+<text x="365" y="56" font-size="11" font-weight="bold">Daily</text><text x="365" y="70" font-size="10">24 h</text>
+<text x="365" y="135" font-weight="bold" font-size="15">Sprint</text><text x="365" y="154">1 a 4 semanas</text>
+<path d="M250 140 H283 M276 134 L284 140 L276 146" fill="none" stroke="#3268ad" stroke-width="2"/>
+<path d="M447 140 H480 M473 134 L481 140 L473 146" fill="none" stroke="#3268ad" stroke-width="2"/>
+<rect x="485" y="40" width="140" height="44" rx="5" fill="#e9f6ee" stroke="#39845b"/><text x="555" y="67" font-weight="bold">Incremento</text>
+<rect x="485" y="118" width="140" height="44" rx="5" fill="#fff4e0" stroke="#c98a1b"/><text x="555" y="145">Sprint Review</text>
+<rect x="485" y="196" width="140" height="44" rx="5" fill="#f3e9fb" stroke="#8a5bb0"/><text x="555" y="223">Retrospective</text>
+<path d="M555 84 V114 M549 107 L555 115 L561 107" fill="none" stroke="#3268ad" stroke-width="2"/>
+<path d="M555 162 V192 M549 185 L555 193 L561 185" fill="none" stroke="#3268ad" stroke-width="2"/>
+<path d="M485 218 H200 V196" fill="none" stroke="#8aa6c8" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="330" y="262" font-size="12" fill="#5f6b7a">Al terminar, empieza el siguiente sprint</text>
+</g></svg>

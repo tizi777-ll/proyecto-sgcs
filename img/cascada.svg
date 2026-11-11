@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" width="620" height="260" role="img" aria-labelledby="t"><title id="t">Modelo en cascada</title>
+<rect width="620" height="260" fill="#fff"/>
+<g font-family="Arial, sans-serif" font-size="15" fill="#2d3b50" text-anchor="middle">
+<g stroke="#3268ad" stroke-width="1.5" fill="#edf4fd">
+<rect x="20" y="15" width="150" height="38" rx="5"/><rect x="125" y="62" width="150" height="38" rx="5"/><rect x="230" y="109" width="150" height="38" rx="5"/><rect x="335" y="156" width="150" height="38" rx="5"/><rect x="440" y="203" width="160" height="38" rx="5" fill="#e9f6ee" stroke="#39845b"/>
+</g>
+<text x="95" y="39">Requisitos</text><text x="200" y="86">Diseño</text><text x="305" y="133">Implementación</text><text x="410" y="180">Pruebas</text><text x="520" y="227">Mantenimiento</text>
+<g fill="none" stroke="#3268ad" stroke-width="2"><path d="M170 34 H200 V58"/><path d="M194 52 L200 60 L206 52"/><path d="M275 81 H305 V105"/><path d="M299 99 L305 107 L311 99"/><path d="M380 128 H410 V152"/><path d="M404 146 L410 154 L416 146"/><path d="M485 175 H520 V199"/><path d="M514 193 L520 201 L526 193"/></g>
+</g></svg>

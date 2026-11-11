@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SGCS: sitio educativo sobre calidad del software, procesos de desarrollo y metodologías ágiles.">
+<title>SGCS - Sistemas de gestión de calidad</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body id="inicio">
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<!-- BARRA FIJA: aparece cuando bajás de la portada (US-01) -->
+<header class="barra-fija" id="barraFija">
+    <div class="barra-fija-interior">
+        <a href="#inicio" class="logo-chico"><span class="icono-logo" aria-hidden="true">▣</span> SGCS</a>
+        <button class="boton-menu boton-menu-fijo" id="botonMenuFijo" type="button"
+            aria-label="Mostrar u ocultar menú" aria-expanded="false" aria-controls="menuFijo">☰</button>
+        <nav id="menuFijo" class="menu-fijo" aria-label="Menú rápido">
+            <a href="#inicio" data-seccion="inicio">Inicio</a>
+            <a href="#calidad" data-seccion="calidad">Calidad</a>
+            <a href="#procesos" data-seccion="procesos">Procesos</a>
+            <a href="#agiles" data-seccion="agiles">Ágiles</a>
+            <a href="#recursos" data-seccion="recursos">Recursos</a>
+            <a href="#interactivo" data-seccion="interactivo">Comparador y encuesta</a>
+            <a href="#nosotros" data-seccion="nosotros">Nosotros</a>
+            <a href="#contacto" data-seccion="contacto">Contacto</a>
+        </nav>
+    </div>
+</header>
+
+<main class="contenedor" id="contenido">
+
+    <!-- ===================== US-01: INICIO ===================== -->
+    <section class="superior" aria-labelledby="tituloPrincipal">
+
+        <div class="bienvenida">
+            <p class="etiqueta">Sistemas de gestión de calidad</p>
+            <h1 id="tituloPrincipal">Bienvenido a SGCS</h1>
+
+            <p>
+                Aprendé sobre calidad del software y procesos de desarrollo
+                tradicionales y ágiles. Un sitio para estudiantes y personas
+                en formación, con explicaciones sencillas y recursos para practicar.
+            </p>
+
+            <a href="#secciones" class="boton">Explorar los temas ➜</a>
+        </div>
+
+        <div class="zona-menu">
+
+            <div class="logo">
+                <span class="icono-logo" aria-hidden="true">▣</span>
+                <span>SGCS</span>
+
+                <button class="boton-menu" id="botonMenu"
+                    aria-label="Mostrar u ocultar menú"
+                    aria-expanded="true" aria-controls="menu" type="button">☰</button>
+            </div>
+
+            <nav id="menu" aria-label="Menú principal">
+                <h2>Menú</h2>
+                <a href="#inicio" data-seccion="inicio" class="activo">Inicio</a>
+                <a href="#calidad" data-seccion="calidad">Calidad del software</a>
+                <a href="#procesos" data-seccion="procesos">Procesos de desarrollo</a>
+                <a href="#agiles" data-seccion="agiles">Metodologías ágiles</a>
+                <a href="#recursos" data-seccion="recursos">Recursos y aprendizaje</a>
+                <a href="#interactivo" data-seccion="interactivo">Comparador y encuesta</a>
+                <a href="#nosotros" data-seccion="nosotros">Sobre nosotros</a>
+                <a href="#contacto" data-seccion="contacto">Contacto</a>
+            </nav>
+
+        </div>
+    </section>
+
+    <section class="secciones" id="secciones" aria-labelledby="tituloSecciones">
+        <h2 id="tituloSecciones">Explorar secciones</h2>
+        <p class="subtitulo">Accesos rápidos a los temas principales del sitio</p>
+
+        <div class="tarjetas">
+            <article class="tarjeta">
+                <span class="icono-tarjeta" aria-hidden="true">✔</span>
+                <h3>Gestión de calidad</h3>
+                <p>Fundamentos, técnicas de aseguramiento y herramientas QA para software de calidad.</p>
+                <a href="#calidad" class="enlace">Ver sección <span class="flecha" aria-hidden="true">➜</span></a>
+            </article>
+
+            <article class="tarjeta">
+                <span class="icono-tarjeta" aria-hidden="true">⟳</span>
+                <h3>Procesos de desarrollo</h3>
+                <p>SDLC, modelos tradicionales y ciclos de vida del desarrollo explicados con ejemplos.</p>
+                <a href="#procesos" class="enlace">Ver sección <span class="flecha" aria-hidden="true">➜</span></a>
+            </article>
+
+            <article class="tarjeta">
+                <span class="icono-tarjeta" aria-hidden="true">✎</span>
+                <h3>Recursos y aprendizaje</h3>
+                <p>Glosario, preguntas frecuentes, ejercicios prácticos y enlaces de interés.</p>
+                <a href="#recursos" class="enlace">Ver sección <span class="flecha" aria-hidden="true">➜</span></a>
+            </article>
+
+            <article class="tarjeta">
+                <span class="icono-tarjeta" aria-hidden="true">⚑</span>
+                <h3>Metodologías ágiles</h3>
+                <p>Scrum, Kanban y XP: principios, roles, ceremonias y comparativas visuales.</p>
+                <a href="#agiles" class="enlace">Ver sección <span class="flecha" aria-hidden="true">➜</span></a>
+            </article>
+        </div>
+    </section>
+
+    <section class="secciones-inferiores" aria-label="Herramientas destacadas">
+        <article class="tarjeta-inferior">
+            <h3>Herramientas de calidad</h3>
+            <p>Bug trackers, linters y plataformas de gestión de pruebas con filtrado interactivo.</p>
+            <a href="#herramientas" class="enlace">Ver sección <span class="flecha" aria-hidden="true">➜</span></a>
+        </article>
+
+        <article class="tarjeta-inferior">
+            <h3>Comparador de metodologías</h3>
+            <p>Seleccioná metodologías y compará sus características clave en tiempo real.</p>
+            <a href="#comparador" class="enlace">Ver sección <span class="flecha" aria-hidden="true">➜</span></a>
+        </article>
+
+        <article class="tarjeta-inferior">
+            <h3>Encuesta de preferencias</h3>
+            <p>Respondé 5 preguntas sobre tu proyecto y te sugerimos qué metodología conviene.</p>
+            <a href="#encuesta" class="enlace">Ver sección <span class="flecha" aria-hidden="true">➜</span></a>
+        </article>
+    </section>
+
+
+    <!-- ===================== GESTIÓN DE LA CALIDAD ===================== -->
+    <section class="seccion" id="calidad" aria-labelledby="tituloCalidad">
+        <p class="etiqueta">Sección 2</p>
+        <h2 id="tituloCalidad">Gestión de la Calidad del Software</h2>
+        <p class="intro">La calidad del software es el grado en que un programa cumple con los requisitos y con lo que esperan las personas que lo usan. Para lograrla no alcanza con probar al final: hay que planificarla, medirla y controlarla durante todo el proyecto.</p>
+
+        <!-- US-02: FUNDAMENTOS -->
+        <div class="subseccion" id="fundamentos">
+            <h3>Fundamentos de calidad</h3>
+
+            <div class="grilla-3">
+                <div class="concepto">
+                    <h4>Calidad</h4>
+                    <p>Conjunto de características de un producto que le permiten satisfacer necesidades <strong>explícitas</strong> (lo que se pidió) e <strong>implícitas</strong> (lo que se da por hecho, como que no se cuelgue).</p>
+                </div>
+                <div class="concepto">
+                    <h4>Aseguramiento (QA)</h4>
+                    <p>Actividades <strong>preventivas</strong> sobre el proceso: normas, revisiones y buenas prácticas para que los errores no aparezcan.</p>
+                </div>
+                <div class="concepto">
+                    <h4>Control (QC)</h4>
+                    <p>Actividades <strong>de detección</strong> sobre el producto: pruebas e inspecciones para encontrar los defectos que sí aparecieron.</p>
+                </div>
+            </div>
+
+            <h4>Métricas de calidad más usadas</h4>
+            <ul class="lista-info">
+                <li><strong>Densidad de defectos:</strong> cantidad de defectos cada 1000 líneas de código (KLOC).</li>
+                <li><strong>Cobertura de pruebas:</strong> porcentaje del código que se ejecuta durante las pruebas.</li>
+                <li><strong>MTBF:</strong> tiempo medio entre fallos; mide la fiabilidad.</li>
+                <li><strong>Complejidad ciclomática:</strong> cantidad de caminos independientes del código; cuanto más alta, más difícil de probar y mantener.</li>
+            </ul>
+
+            <h4>Estándares ISO</h4>
+            <p>Elegí una pestaña para comparar los dos estándares de calidad de producto.</p>
+
+            <div class="pestanas" data-pestanas>
+                <div class="lista-pestanas" role="tablist" aria-label="Estándares ISO">
+                    <button type="button" role="tab" id="tab-iso9126" aria-controls="panel-iso9126" aria-selected="true">ISO/IEC 9126</button>
+                    <button type="button" role="tab" id="tab-iso25000" aria-controls="panel-iso25000" aria-selected="false" tabindex="-1">ISO/IEC 25000</button>
+                </div>
+
+                <div class="panel-pestana" role="tabpanel" id="panel-iso9126" aria-labelledby="tab-iso9126" tabindex="0">
+                    <p><span class="resaltado">ISO/IEC 9126</span> (1991, revisada en 2001) define un modelo de calidad con <strong>6 características</strong>. Hoy está reemplazada por la familia ISO 25000, pero se sigue estudiando porque es la base.</p>
+                    <ol class="lista-caracteristicas">
+                        <li><strong>Funcionalidad:</strong> hace lo que tiene que hacer.</li>
+                        <li><strong>Fiabilidad:</strong> funciona sin fallar durante un tiempo.</li>
+                        <li><strong>Usabilidad:</strong> es fácil de aprender y de usar.</li>
+                        <li><strong>Eficiencia:</strong> usa bien el tiempo y los recursos.</li>
+                        <li><strong>Mantenibilidad:</strong> es fácil de corregir y modificar.</li>
+                        <li><strong>Portabilidad:</strong> se puede llevar a otros entornos.</li>
+                    </ol>
+                </div>
+
+                <div class="panel-pestana" role="tabpanel" id="panel-iso25000" aria-labelledby="tab-iso25000" tabindex="0" hidden>
+                    <p><span class="resaltado">ISO/IEC 25000 (SQuaRE)</span> es la familia de normas que reemplazó a la 9126. Su modelo de calidad de producto está en la <strong>ISO/IEC 25010</strong>, que en la versión 2011 tiene <strong>8 características</strong>:</p>
+                    <ol class="lista-caracteristicas">
+                        <li><strong>Adecuación funcional</strong></li>
+                        <li><strong>Eficiencia de desempeño</strong></li>
+                        <li><strong>Compatibilidad</strong> (nueva)</li>
+                        <li><strong>Usabilidad</strong></li>
+                        <li><strong>Fiabilidad</strong></li>
+                        <li><strong>Seguridad</strong> (nueva, antes era parte de funcionalidad)</li>
+                        <li><strong>Mantenibilidad</strong></li>
+                        <li><strong>Portabilidad</strong></li>
+                    </ol>
+                    <p class="nota">Dato: en la revisión de 2023 se agregó una novena característica, <em>protección</em> (safety), y se renombraron algunas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- US-03: TÉCNICAS DE ASEGURAMIENTO -->
+        <div class="subseccion" id="tecnicas">
+            <h3>Técnicas de Aseguramiento de la Calidad</h3>
+            <p>Las pruebas de software se organizan por <strong>niveles</strong> (qué parte se prueba) y por <strong>tipos</strong> (cómo se prueba). Tocá cada tarjeta para darla vuelta y ver un ejemplo.</p>
+
+            <div class="esquema-niveles" aria-label="Esquema de niveles de prueba, de lo más pequeño a lo más grande">
+                <div class="nivel nivel-3">Sistema</div>
+                <div class="nivel nivel-2">Integración</div>
+                <div class="nivel nivel-1">Unitarias</div>
+            </div>
+
+            <h4>Niveles de prueba</h4>
+            <div class="grilla-3">
+                <button type="button" class="tarjeta-giro" aria-pressed="false">
+                    <span class="cara frente"><strong>Pruebas unitarias</strong><span>Verifican componentes chicos por separado.</span><em>Tocá para ver más ↻</em></span>
+                    <span class="cara dorso"><strong>¿Para qué?</strong><span>Encontrar errores temprano en una función, clase o módulo aislado.</span><span><b>Ejemplo:</b> comprobar que sumar(2, 3) devuelve 5.</span></span>
+                </button>
+                <button type="button" class="tarjeta-giro" aria-pressed="false">
+                    <span class="cara frente"><strong>Pruebas de integración</strong><span>Comprueban la comunicación entre componentes.</span><em>Tocá para ver más ↻</em></span>
+                    <span class="cara dorso"><strong>¿Para qué?</strong><span>Verificar que los módulos se pasen bien los datos entre sí.</span><span><b>Ejemplo:</b> el formulario envía los datos y la base de datos los guarda.</span></span>
+                </button>
+                <button type="button" class="tarjeta-giro" aria-pressed="false">
+                    <span class="cara frente"><strong>Pruebas de sistema</strong><span>Evalúan el sistema completo.</span><em>Tocá para ver más ↻</em></span>
+                    <span class="cara dorso"><strong>¿Para qué?</strong><span>Comprobar requisitos funcionales y no funcionales de punta a punta.</span><span><b>Ejemplo:</b> registrarse, iniciar sesión y comprar un producto.</span></span>
+                </button>
+            </div>
+
+            <h4>Tipos de prueba</h4>
+            <div class="grilla-2">
+                <button type="button" class="tarjeta-giro" aria-pressed="false">
+                    <span class="cara frente"><strong>Caja negra</strong><span>Se prueban entradas y salidas sin mirar el código.</span><em>Tocá para ver más ↻</em></span>
+                    <span class="cara dorso"><strong>Técnicas</strong><span>Partición de equivalencia y análisis de valores límite.</span><span><b>Ejemplo:</b> si la edad válida es 18 a 65, probar 17, 18, 65 y 66.</span></span>
+                </button>
+                <button type="button" class="tarjeta-giro" aria-pressed="false">
+                    <span class="cara frente"><strong>Caja blanca</strong><span>Se prueban los caminos internos del código.</span><em>Tocá para ver más ↻</em></span>
+                    <span class="cara dorso"><strong>Técnicas</strong><span>Cobertura de sentencias, de decisiones y de caminos.</span><span><b>Ejemplo:</b> diseñar un caso para cada rama de un if/else.</span></span>
+                </button>
+            </div>
+
+            <div class="tabla-adaptable">
+                <table>
+                    <caption>Cuadro comparativo: caja negra vs. caja blanca</caption>
+                    <thead>
+                        <tr><th scope="col">Aspecto</th><th scope="col">Caja negra</th><th scope="col">Caja blanca</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th scope="row">¿Se ve el código?</th><td>No</td><td>Sí</td></tr>
+                        <tr><th scope="row">Se basa en</th><td>Requisitos y especificaciones</td><td>Estructura y lógica interna</td></tr>
+                        <tr><th scope="row">Quién la hace</th><td>Testers, usuarios</td><td>Desarrolladores</td></tr>
+                        <tr><th scope="row">Nivel típico</th><td>Sistema y aceptación</td><td>Unitarias e integración</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- US-04: HERRAMIENTAS DE CALIDAD -->
+        <div class="subseccion" id="herramientas">
+            <h3>Herramientas de Calidad</h3>
+            <p>Filtrá las herramientas por categoría. El filtro funciona al instante, sin recargar la página.</p>
+
+            <div class="filtros" role="group" aria-label="Filtrar herramientas por categoría">
+                <button type="button" class="filtro" data-filtro="todas" aria-pressed="true">Todas</button>
+                <button type="button" class="filtro" data-filtro="bug" aria-pressed="false">🐞 Bug trackers</button>
+                <button type="button" class="filtro" data-filtro="linter" aria-pressed="false">🧹 Linters</button>
+                <button type="button" class="filtro" data-filtro="pruebas" aria-pressed="false">🧪 Gestión de pruebas</button>
+                <button type="button" class="filtro" data-filtro="analisis" aria-pressed="false">📊 Análisis de calidad</button>
+            </div>
+            <p class="contador" id="contadorHerramientas" aria-live="polite">Mostrando 10 herramientas</p>
+
+            <div class="grilla-herramientas" id="grillaHerramientas">
+                <article class="herramienta" data-categoria="bug"><span class="icono-herramienta" aria-hidden="true">🐞</span><h4>Jira</h4><p>Registro y seguimiento de errores y tareas, muy usado con Scrum.</p><span class="chip">Bug tracker</span></article>
+                <article class="herramienta" data-categoria="bug"><span class="icono-herramienta" aria-hidden="true">🐞</span><h4>Bugzilla</h4><p>Bug tracker libre creado por Mozilla para reportar defectos.</p><span class="chip">Bug tracker</span></article>
+                <article class="herramienta" data-categoria="bug"><span class="icono-herramienta" aria-hidden="true">🐞</span><h4>MantisBT</h4><p>Sistema web y gratuito para seguir incidencias.</p><span class="chip">Bug tracker</span></article>
+                <article class="herramienta" data-categoria="linter"><span class="icono-herramienta" aria-hidden="true">🧹</span><h4>ESLint</h4><p>Revisa código JavaScript y marca errores y malas prácticas.</p><span class="chip">Linter</span></article>
+                <article class="herramienta" data-categoria="linter"><span class="icono-herramienta" aria-hidden="true">🧹</span><h4>Pylint</h4><p>Analiza código Python y le pone una nota de calidad.</p><span class="chip">Linter</span></article>
+                <article class="herramienta" data-categoria="linter"><span class="icono-herramienta" aria-hidden="true">🧹</span><h4>Stylelint</h4><p>Detecta errores y desorden en hojas de estilo CSS.</p><span class="chip">Linter</span></article>
+                <article class="herramienta" data-categoria="pruebas"><span class="icono-herramienta" aria-hidden="true">🧪</span><h4>TestLink</h4><p>Organiza planes, casos de prueba y sus resultados.</p><span class="chip">Gestión de pruebas</span></article>
+                <article class="herramienta" data-categoria="pruebas"><span class="icono-herramienta" aria-hidden="true">🧪</span><h4>Kiwi TCMS</h4><p>Gestor de casos de prueba libre, con reportes.</p><span class="chip">Gestión de pruebas</span></article>
+                <article class="herramienta" data-categoria="analisis"><span class="icono-herramienta" aria-hidden="true">📊</span><h4>SonarQube</h4><p>Mide deuda técnica, duplicación, cobertura y vulnerabilidades.</p><span class="chip">Análisis de calidad</span></article>
+                <article class="herramienta" data-categoria="analisis"><span class="icono-herramienta" aria-hidden="true">📊</span><h4>Lighthouse</h4><p>Audita rendimiento, accesibilidad y buenas prácticas de sitios web.</p><span class="chip">Análisis de calidad</span></article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== PROCESOS DE DESARROLLO ===================== -->
+    <section class="seccion" id="procesos" aria-labelledby="tituloProcesos">
+        <p class="etiqueta">Sección 3</p>
+        <h2 id="tituloProcesos">Procesos de Desarrollo de Software</h2>
+        <p class="intro">Un proceso de desarrollo ordena el trabajo: qué se hace, en qué orden y quién lo hace. Primero vemos las etapas generales y después los modelos tradicionales.</p>
+
+        <!-- US-05: SDLC -->
+        <div class="subseccion" id="sdlc">
+            <h3>Ciclo de Vida del Desarrollo de Software (SDLC)</h3>
+            <p>Hacé clic en cada etapa o usá los botones para recorrerlas paso a paso.</p>
+
+            <ol class="linea-tiempo" id="lineaTiempo">
+                <li><button type="button" class="etapa" data-etapa="0"><span class="numero">1</span><span class="nombre-etapa">Requisitos</span></button></li>
+                <li><button type="button" class="etapa" data-etapa="1"><span class="numero">2</span><span class="nombre-etapa">Diseño</span></button></li>
+                <li><button type="button" class="etapa" data-etapa="2"><span class="numero">3</span><span class="nombre-etapa">Desarrollo</span></button></li>
+                <li><button type="button" class="etapa" data-etapa="3"><span class="numero">4</span><span class="nombre-etapa">Pruebas</span></button></li>
+                <li><button type="button" class="etapa" data-etapa="4"><span class="numero">5</span><span class="nombre-etapa">Despliegue</span></button></li>
+                <li><button type="button" class="etapa" data-etapa="5"><span class="numero">6</span><span class="nombre-etapa">Mantenimiento</span></button></li>
+            </ol>
+
+            <div class="detalle-etapa" id="detalleEtapa" aria-live="polite">
+                <h4>Elegí una etapa</h4>
+                <p>Acá vas a ver qué se hace en cada etapa y por qué es importante.</p>
+            </div>
+
+            <div class="botones-etapa">
+                <button type="button" class="boton boton-secundario" id="etapaAnterior">← Anterior</button>
+                <button type="button" class="boton" id="etapaSiguiente">Siguiente →</button>
+            </div>
+        </div>
+
+        <!-- US-06 y US-07: MODELOS TRADICIONALES -->
+        <div class="subseccion" id="modelos">
+            <h3>Modelos Tradicionales</h3>
+            <p>Usá el menú para saltar entre los modelos.</p>
+
+            <nav class="subnav" id="subnavModelos" aria-label="Modelos tradicionales">
+                <a href="#cascada">Cascada</a>
+                <a href="#modelo-v">Modelo en V</a>
+                <a href="#iterativo">Iterativo e incremental</a>
+            </nav>
+
+            <article class="modelo" id="cascada">
+                <h4>Modelo en cascada</h4>
+                <p>Las fases se hacen una después de la otra: no se empieza una hasta terminar la anterior. Cada fase termina con un documento aprobado.</p>
+                <figure class="figura">
+                    <button type="button" class="ampliar" aria-label="Ampliar diagrama del modelo en cascada">
+                        <img src="img/cascada.svg" alt="Diagrama del modelo en cascada: cinco etapas en escalera, Requisitos, Diseño, Implementación, Pruebas y Mantenimiento, unidas por flechas hacia abajo" width="620" height="260" loading="lazy">
+                    </button>
+                    <figcaption>Figura 1. Modelo en cascada: cada etapa “cae” en la siguiente.</figcaption>
+                </figure>
+                <div class="comparacion">
+                    <div class="caja-ventajas">
+                        <h5><span aria-hidden="true">✓</span> Ventajas</h5>
+                        <ul><li>Fases claras y fáciles de planificar.</li><li>Mucha documentación y entregables definidos.</li><li>Fácil de controlar el avance.</li></ul>
+                    </div>
+                    <div class="caja-desventajas">
+                        <h5><span aria-hidden="true">✕</span> Desventajas</h5>
+                        <ul><li>Los cambios tardíos cuestan mucho.</li><li>El cliente ve el producto recién al final.</li><li>Los errores de requisitos se detectan tarde.</li></ul>
+                    </div>
+                </div>
+                <p class="cuando"><strong>¿Cuándo usarlo?</strong> Cuando los requisitos son estables y están bien definidos, por ejemplo un sistema de sueldos con reglas fijas.</p>
+            </article>
+
+            <article class="modelo" id="modelo-v">
+                <h4>Modelo en V</h4>
+                <p>Es una variante de la cascada que une cada etapa de definición con una etapa de prueba. Las pruebas se planifican desde el principio.</p>
+                <figure class="figura">
+                    <button type="button" class="ampliar" aria-label="Ampliar diagrama del modelo en V">
+                        <img src="img/modelo-v.svg" alt="Diagrama en forma de V: a la izquierda bajan Requisitos, Diseño del sistema y Diseño detallado; abajo Implementación; a la derecha suben Pruebas unitarias, de sistema y de aceptación, cada una unida con su etapa" width="620" height="300" loading="lazy">
+                    </button>
+                    <figcaption>Figura 2. Modelo en V: cada etapa de la izquierda se valida con una prueba de la derecha.</figcaption>
+                </figure>
+                <div class="comparacion">
+                    <div class="caja-ventajas">
+                        <h5><span aria-hidden="true">✓</span> Ventajas</h5>
+                        <ul><li>Las pruebas se planifican temprano.</li><li>Buena trazabilidad entre requisitos y pruebas.</li><li>Menos errores llegan al final.</li></ul>
+                    </div>
+                    <div class="caja-desventajas">
+                        <h5><span aria-hidden="true">✕</span> Desventajas</h5>
+                        <ul><li>Es rígido ante cambios.</li><li>Hay que definir muy bien los requisitos al inicio.</li><li>No hay versiones funcionando antes del final.</li></ul>
+                    </div>
+                </div>
+                <p class="cuando"><strong>¿Cuándo usarlo?</strong> En sistemas críticos que necesitan verificación rigurosa, como software médico o de aviones.</p>
+            </article>
+
+            <article class="modelo" id="iterativo">
+                <h4>Modelo iterativo e incremental</h4>
+                <p>El producto se construye en ciclos. Cada <strong>iteración</strong> repite análisis, diseño, código y pruebas; cada <strong>incremento</strong> suma funciones que ya se pueden usar.</p>
+                <figure class="figura">
+                    <button type="button" class="ampliar" aria-label="Ampliar diagrama del modelo iterativo e incremental">
+                        <img src="img/iterativo.svg" alt="Diagrama de tres iteraciones seguidas; en cada una se planifica, construye y prueba, y el producto crece de la versión 1 a la versión 3" width="620" height="240" loading="lazy">
+                    </button>
+                    <figcaption>Figura 3. Modelo iterativo e incremental: cada ciclo entrega una versión más completa.</figcaption>
+                </figure>
+                <div class="comparacion">
+                    <div class="caja-ventajas">
+                        <h5><span aria-hidden="true">✓</span> Ventajas</h5>
+                        <ul><li>El cliente ve avances seguido y opina.</li><li>Se pueden priorizar las funciones importantes.</li><li>Los riesgos se detectan antes.</li></ul>
+                    </div>
+                    <div class="caja-desventajas">
+                        <h5><span aria-hidden="true">✕</span> Desventajas</h5>
+                        <ul><li>Hay que planificar en cada ciclo.</li><li>Si no se controla, el alcance crece sin fin.</li><li>La arquitectura puede necesitar cambios.</li></ul>
+                    </div>
+                </div>
+                <p class="cuando"><strong>¿Cuándo usarlo?</strong> Cuando los requisitos pueden cambiar y conviene entregar mejoras de a poco, por ejemplo una app nueva.</p>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- ===================== US-08 y US-09: METODOLOGÍAS ÁGILES ===================== -->
+    <section class="seccion" id="agiles" aria-labelledby="tituloAgiles">
+        <p class="etiqueta">Sección 4</p>
+        <h2 id="tituloAgiles">Metodologías Ágiles</h2>
+        <p class="intro">Las metodologías ágiles trabajan en ciclos cortos, entregan software funcionando seguido y se adaptan a los cambios. Todas se basan en el Manifiesto Ágil (2001).</p>
+
+        <div class="con-indice">
+            <aside class="indice-flotante" aria-label="Contenido de la sección ágil">
+                <p class="indice-titulo">En esta sección</p>
+                <ul id="indiceAgiles">
+                    <li><a href="#manifiesto">Manifiesto ágil</a></li>
+                    <li><a href="#ag-scrum">Scrum</a>
+                        <ul><li><a href="#scrum-principios">Principios</a></li><li><a href="#scrum-roles">Roles</a></li><li><a href="#scrum-ceremonias">Ceremonias</a></li><li><a href="#scrum-artefactos">Artefactos</a></li></ul>
+                    </li>
+                    <li><a href="#ag-kanban">Kanban</a>
+                        <ul><li><a href="#kanban-principios">Principios</a></li><li><a href="#kanban-roles">Roles</a></li><li><a href="#kanban-ceremonias">Ceremonias</a></li><li><a href="#kanban-artefactos">Artefactos</a></li></ul>
+                    </li>
+                    <li><a href="#ag-xp">XP</a>
+                        <ul><li><a href="#xp-principios">Principios</a></li><li><a href="#xp-roles">Roles</a></li><li><a href="#xp-ceremonias">Ceremonias</a></li><li><a href="#xp-artefactos">Artefactos</a></li></ul>
+                    </li>
+                    <li><a href="#comparativa">Ágil vs. tradicional</a></li>
+                    <li><a href="#detalle">Scrum y Kanban en detalle</a></li>
+                </ul>
+            </aside>
+
+            <div class="contenido-indice">
+
+                <div class="subseccion" id="manifiesto">
+                    <h3>Manifiesto Ágil</h3>
+                    <p>Tiene <strong>4 valores</strong>. Aunque se valoran los elementos de la derecha, se valoran más los de la izquierda:</p>
+                    <div class="grilla-2 valores">
+                        <div class="valor"><strong>Individuos e interacciones</strong> sobre procesos y herramientas</div>
+                        <div class="valor"><strong>Software funcionando</strong> sobre documentación extensiva</div>
+                        <div class="valor"><strong>Colaboración con el cliente</strong> sobre negociación contractual</div>
+                        <div class="valor"><strong>Respuesta ante el cambio</strong> sobre seguir un plan</div>
+                    </div>
+
+                    <h4>Los 12 principios</h4>
+                    <ol class="principios">
+                        <li>Nuestra mayor prioridad es satisfacer al cliente mediante la entrega temprana y continua de software con valor.</li>
+                        <li>Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo.</li>
+                        <li>Entregamos software funcional frecuentemente, entre dos semanas y dos meses, con preferencia al periodo más corto.</li>
+                        <li>Los responsables de negocio y los desarrolladores trabajan juntos de forma cotidiana durante todo el proyecto.</li>
+                        <li>Los proyectos se desarrollan en torno a individuos motivados, dándoles el entorno y el apoyo que necesitan y confiando en ellos.</li>
+                        <li>La conversación cara a cara es el método más eficiente para comunicar información dentro del equipo.</li>
+                        <li>El software funcionando es la medida principal de progreso.</li>
+                        <li>Los procesos ágiles promueven el desarrollo sostenible, con un ritmo constante que se pueda mantener.</li>
+                        <li>La atención continua a la excelencia técnica y al buen diseño mejora la agilidad.</li>
+                        <li>La simplicidad, o el arte de maximizar la cantidad de trabajo no realizado, es esencial.</li>
+                        <li>Las mejores arquitecturas, requisitos y diseños emergen de equipos auto-organizados.</li>
+                        <li>A intervalos regulares el equipo reflexiona sobre cómo ser más efectivo y ajusta su comportamiento.</li>
+                    </ol>
+                </div>
+
+                <article class="subseccion modulo" id="ag-scrum">
+                    <h3>Scrum</h3>
+                    <p>Marco de trabajo para productos complejos que organiza el trabajo en <strong>sprints</strong> de 1 a 4 semanas.</p>
+                    <figure class="figura">
+                        <button type="button" class="ampliar" aria-label="Ampliar diagrama del ciclo del sprint">
+                            <img src="img/sprint.svg" alt="Ciclo del sprint: del Product Backlog se pasa al Sprint Planning y al Sprint Backlog; el sprint de 1 a 4 semanas gira con la Daily Scrum cada 24 horas; termina en un Incremento, la Sprint Review y la Retrospectiva" width="640" height="280" loading="lazy">
+                        </button>
+                        <figcaption>Figura 4. Ciclo del sprint en Scrum.</figcaption>
+                    </figure>
+                    <div class="grilla-2">
+                        <div class="bloque" id="scrum-principios"><h4>Principios</h4><p>Empirismo con tres pilares: <strong>transparencia, inspección y adaptación</strong>. Valores: compromiso, foco, apertura, respeto y coraje.</p></div>
+                        <div class="bloque" id="scrum-roles"><h4>Roles</h4><p><strong>Product Owner</strong>, <strong>Scrum Master</strong> y <strong>Developers</strong> (equipo de desarrollo).</p></div>
+                        <div class="bloque" id="scrum-ceremonias"><h4>Ceremonias</h4><p>Sprint, Sprint Planning, Daily Scrum, Sprint Review y Sprint Retrospective.</p></div>
+                        <div class="bloque" id="scrum-artefactos"><h4>Artefactos</h4><p>Product Backlog, Sprint Backlog e Incremento.</p></div>
+                    </div>
+                </article>
+
+                <article class="subseccion modulo" id="ag-kanban">
+                    <h3>Kanban</h3>
+                    <p>Método para gestionar el flujo de trabajo visualizándolo en un tablero y limitando el trabajo en curso.</p>
+                    <figure class="figura">
+                        <button type="button" class="ampliar" aria-label="Ampliar diagrama del flujo Kanban">
+                            <img src="img/kanban.svg" alt="Tablero Kanban con tres columnas: Por hacer con tres tarjetas, En proceso con límite WIP de 2 y dos tarjetas, y Hecho con una tarjeta; una flecha muestra el flujo de izquierda a derecha" width="640" height="260" loading="lazy">
+                        </button>
+                        <figcaption>Figura 5. Flujo Kanban con límite de trabajo en curso (WIP).</figcaption>
+                    </figure>
+                    <div class="grilla-2">
+                        <div class="bloque" id="kanban-principios"><h4>Principios</h4><p>Empezar con lo que hacés hoy, mejorar de a poco, visualizar el flujo, limitar el WIP y gestionar el flujo.</p></div>
+                        <div class="bloque" id="kanban-roles"><h4>Roles</h4><p>No exige roles nuevos. Opcionales: responsable de pedidos de servicio y responsable de entrega del servicio.</p></div>
+                        <div class="bloque" id="kanban-ceremonias"><h4>Ceremonias</h4><p>Cadencias: reunión diaria frente al tablero, reunión de reposición y revisión de entregas.</p></div>
+                        <div class="bloque" id="kanban-artefactos"><h4>Artefactos</h4><p>Tablero, tarjetas, límites WIP y métricas como lead time y cycle time.</p></div>
+                    </div>
+                </article>
+
+                <article class="subseccion modulo" id="ag-xp">
+                    <h3>XP (Extreme Programming)</h3>
+                    <p>Metodología centrada en prácticas técnicas para hacer código de calidad con cambios frecuentes.</p>
+                    <figure class="figura">
+                        <button type="button" class="ampliar" aria-label="Ampliar diagrama del bucle de XP">
+                            <img src="img/xp.svg" alt="Bucle de XP: historias de usuario, planificación, programación en pareja con pruebas primero, integración continua y entrega pequeña, que vuelve al inicio con la opinión del cliente" width="640" height="280" loading="lazy">
+                        </button>
+                        <figcaption>Figura 6. Bucle de trabajo en XP.</figcaption>
+                    </figure>
+                    <div class="grilla-2">
+                        <div class="bloque" id="xp-principios"><h4>Principios</h4><p>Valores: comunicación, simplicidad, retroalimentación, coraje y respeto. Prácticas: TDD, programación en pareja, refactorización e integración continua.</p></div>
+                        <div class="bloque" id="xp-roles"><h4>Roles</h4><p>Cliente, programador, tester, tracker (seguimiento) y coach.</p></div>
+                        <div class="bloque" id="xp-ceremonias"><h4>Ceremonias</h4><p>Juego de planificación, reunión diaria de pie, iteraciones cortas y entregas pequeñas.</p></div>
+                        <div class="bloque" id="xp-artefactos"><h4>Artefactos</h4><p>Historias de usuario, tarjetas CRC, pruebas de aceptación y pruebas unitarias automatizadas.</p></div>
+                    </div>
+                </article>
+
+                <div class="subseccion" id="comparativa">
+                    <h3>Ágil vs. tradicional</h3>
+                    <div class="tabla-adaptable">
+                        <table>
+                            <caption>Comparativa entre enfoques</caption>
+                            <thead><tr><th scope="col">Aspecto</th><th scope="col">Tradicional</th><th scope="col">Ágil</th></tr></thead>
+                            <tbody>
+                                <tr><th scope="row">Planificación</th><td>Completa al inicio</td><td>Continua, en cada ciclo</td></tr>
+                                <tr><th scope="row">Cambios</th><td>Costosos, se evitan</td><td>Bienvenidos</td></tr>
+                                <tr><th scope="row">Entregas</th><td>Una al final</td><td>Frecuentes</td></tr>
+                                <tr><th scope="row">Documentación</th><td>Extensa</td><td>La necesaria</td></tr>
+                                <tr><th scope="row">Cliente</th><td>Participa al inicio y al final</td><td>Participa todo el tiempo</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- ===================== METODOLOGÍAS EN DETALLE ===================== -->
+                <div class="subseccion" id="detalle">
+                    <h3>Metodologías en detalle</h3>
+
+                    <!-- US-10: SCRUM PROFUNDO -->
+                    <div class="bloque-detalle" id="scrum">
+                        <h4>Scrum en profundidad</h4>
+
+                        <div class="pestanas" data-pestanas>
+                            <div class="lista-pestanas" role="tablist" aria-label="Temas de Scrum">
+                                <button type="button" role="tab" id="tab-roles" aria-controls="panel-roles" aria-selected="true">1) Roles</button>
+                                <button type="button" role="tab" id="tab-eventos" aria-controls="panel-eventos" aria-selected="false" tabindex="-1">2) Eventos</button>
+                                <button type="button" role="tab" id="tab-artefactos" aria-controls="panel-artefactos" aria-selected="false" tabindex="-1">3) Artefactos</button>
+                            </div>
+                            <div class="panel-pestana" role="tabpanel" id="panel-roles" aria-labelledby="tab-roles" tabindex="0">
+                                <ul class="lista-info">
+                                    <li><strong>Product Owner:</strong> maximiza el valor del producto y es responsable de ordenar el Product Backlog.</li>
+                                    <li><strong>Scrum Master:</strong> ayuda a que el equipo entienda y aplique Scrum y elimina impedimentos.</li>
+                                    <li><strong>Developers:</strong> construyen el incremento en cada sprint y arman el Sprint Backlog.</li>
+                                </ul>
+                            </div>
+                            <div class="panel-pestana" role="tabpanel" id="panel-eventos" aria-labelledby="tab-eventos" tabindex="0" hidden>
+                                <ul class="lista-info">
+                                    <li><strong>Sprint:</strong> ciclo de 1 a 4 semanas que contiene a todos los demás eventos.</li>
+                                    <li><strong>Sprint Planning:</strong> se decide qué se va a hacer y cómo.</li>
+                                    <li><strong>Daily Scrum:</strong> reunión diaria de 15 minutos para revisar el avance hacia el objetivo.</li>
+                                    <li><strong>Sprint Review:</strong> se muestra el incremento a los interesados.</li>
+                                    <li><strong>Sprint Retrospective:</strong> el equipo analiza cómo trabajó y qué mejorar.</li>
+                                </ul>
+                            </div>
+                            <div class="panel-pestana" role="tabpanel" id="panel-artefactos" aria-labelledby="tab-artefactos" tabindex="0" hidden>
+                                <ul class="lista-info">
+                                    <li><strong>Product Backlog:</strong> lista ordenada de todo lo que necesita el producto. Compromiso: <em>objetivo del producto</em>.</li>
+                                    <li><strong>Sprint Backlog:</strong> lo elegido para el sprint más el plan. Compromiso: <em>objetivo del sprint</em>.</li>
+                                    <li><strong>Incremento:</strong> trabajo terminado y utilizable. Compromiso: <em>definición de terminado</em>.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h5>Cronograma interactivo del sprint</h5>
+                        <p>Elegí cuánto dura el sprint y hacé clic en cada evento para ver su duración sugerida y su objetivo.</p>
+
+                        <fieldset class="selector-semanas">
+                            <legend>Duración del sprint</legend>
+                            <label><input type="radio" name="semanas" value="1"> 1 semana</label>
+                            <label><input type="radio" name="semanas" value="2" checked> 2 semanas</label>
+                            <label><input type="radio" name="semanas" value="3"> 3 semanas</label>
+                            <label><input type="radio" name="semanas" value="4"> 4 semanas</label>
+                        </fieldset>
+
+                        <div class="eventos-sprint" role="group" aria-label="Eventos del sprint">
+                            <button type="button" class="evento ev-planning" data-evento="planning">Sprint Planning</button>
+                            <button type="button" class="evento ev-daily" data-evento="daily">Daily Scrum</button>
+                            <button type="button" class="evento ev-review" data-evento="review">Sprint Review</button>
+                            <button type="button" class="evento ev-retro" data-evento="retro">Retrospective</button>
+                        </div>
+
+                        <div class="cronograma" id="cronograma" aria-label="Días del sprint"></div>
+
+                        <div class="detalle-evento" id="detalleEvento" aria-live="polite">
+                            <p>Elegí un evento para ver los detalles.</p>
+                        </div>
+                    </div>
+
+                    <!-- US-11: KANBAN PROFUNDO -->
+                    <div class="bloque-detalle" id="kanban">
+                        <h4>Kanban como herramienta de gestión de procesos</h4>
+                        <p>Kanban sirve para ver en qué estado está cada tarea y para no empezar más trabajo del que el equipo puede terminar. Probalo: arrastrá las tarjetas o usá las flechas. La columna <strong>En proceso</strong> tiene un <strong>límite WIP de 2</strong>.</p>
+
+                        <div class="tablero" id="tablero">
+                            <div class="columna" data-columna="hacer">
+                                <h5>Por hacer <span class="cuenta" data-cuenta="hacer"></span></h5>
+                                <div class="lista-tarjetas" data-lista="hacer"></div>
+                            </div>
+                            <div class="columna" data-columna="proceso">
+                                <h5>En proceso <span class="cuenta" data-cuenta="proceso"></span></h5>
+                                <div class="lista-tarjetas" data-lista="proceso"></div>
+                            </div>
+                            <div class="columna" data-columna="hecho">
+                                <h5>Hecho <span class="cuenta" data-cuenta="hecho"></span></h5>
+                                <div class="lista-tarjetas" data-lista="hecho"></div>
+                            </div>
+                        </div>
+                        <p class="aviso" id="avisoKanban" role="status" aria-live="polite"></p>
+                        <button type="button" class="boton boton-secundario" id="reiniciarTablero">Reiniciar tablero</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== RECURSOS Y APRENDIZAJE ===================== -->
+    <section class="seccion" id="recursos" aria-labelledby="tituloRecursos">
+        <p class="etiqueta">Sección 5</p>
+        <h2 id="tituloRecursos">Recursos y Aprendizaje</h2>
+        <p class="intro">Material para estudiar, repasar y practicar.</p>
+
+        <!-- US-12: GLOSARIO -->
+        <div class="subseccion" id="glosario">
+            <h3>Glosario</h3>
+            <label for="buscadorGlosario" class="etiqueta-campo">Buscar un término</label>
+            <input type="search" id="buscadorGlosario" class="campo" placeholder="Ej: sprint, defecto, ISO..." autocomplete="off">
+            <div class="indice-letras" id="indiceLetras" aria-label="Índice por letras"></div>
+            <p class="contador" id="contadorGlosario" aria-live="polite"></p>
+            <div id="listaGlosario"></div>
+            <p class="sin-resultados" id="sinResultados" hidden>Sin resultados. Probá con otra palabra.</p>
+        </div>
+
+        <!-- US-13: FAQ -->
+        <div class="subseccion" id="faq">
+            <h3>Preguntas Frecuentes</h3>
+            <div class="acordeon" id="acordeon">
+                <div class="item-acordeon">
+                    <h4><button type="button" class="pregunta" aria-expanded="false" aria-controls="resp1" id="preg1">¿Probar el software es lo mismo que asegurar la calidad?</button></h4>
+                    <div class="respuesta" id="resp1" role="region" aria-labelledby="preg1"><div><p>No. Probar (control de calidad) busca defectos en el producto. Asegurar la calidad incluye además mejorar el proceso para que los defectos no aparezcan.</p></div></div>
+                </div>
+                <div class="item-acordeon">
+                    <h4><button type="button" class="pregunta" aria-expanded="false" aria-controls="resp2" id="preg2">¿Qué diferencia hay entre error, defecto y falla?</button></h4>
+                    <div class="respuesta" id="resp2" role="region" aria-labelledby="preg2"><div><p>El <strong>error</strong> lo comete una persona; eso deja un <strong>defecto</strong> en el código; y cuando ese código se ejecuta y el sistema hace algo mal, se produce una <strong>falla</strong>.</p></div></div>
+                </div>
+                <div class="item-acordeon">
+                    <h4><button type="button" class="pregunta" aria-expanded="false" aria-controls="resp3" id="preg3">¿Las metodologías ágiles no documentan nada?</button></h4>
+                    <div class="respuesta" id="resp3" role="region" aria-labelledby="preg3"><div><p>Sí documentan, pero solo lo necesario. El manifiesto prefiere el software funcionando a la documentación extensiva, no dice que haya que eliminarla.</p></div></div>
+                </div>
+                <div class="item-acordeon">
+                    <h4><button type="button" class="pregunta" aria-expanded="false" aria-controls="resp4" id="preg4">¿Scrum y Kanban se pueden usar juntos?</button></h4>
+                    <div class="respuesta" id="resp4" role="region" aria-labelledby="preg4"><div><p>Sí. Muchos equipos usan los sprints y roles de Scrum con un tablero Kanban y límites WIP. A veces se lo llama “Scrumban”.</p></div></div>
+                </div>
+                <div class="item-acordeon">
+                    <h4><button type="button" class="pregunta" aria-expanded="false" aria-controls="resp5" id="preg5">¿El modelo en cascada ya no se usa?</button></h4>
+                    <div class="respuesta" id="resp5" role="region" aria-labelledby="preg5"><div><p>Se sigue usando en proyectos con requisitos fijos, contratos cerrados o normas que exigen mucha documentación.</p></div></div>
+                </div>
+                <div class="item-acordeon">
+                    <h4><button type="button" class="pregunta" aria-expanded="false" aria-controls="resp6" id="preg6">¿Qué es una prueba de regresión?</button></h4>
+                    <div class="respuesta" id="resp6" role="region" aria-labelledby="preg6"><div><p>Es volver a ejecutar pruebas que ya pasaban, después de un cambio, para comprobar que no se rompió nada que antes funcionaba.</p></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- US-14: ENLACES -->
+        <div class="subseccion" id="enlaces">
+            <h3>Enlaces de Interés</h3>
+            <p>Todos los enlaces se abren en una pestaña nueva de forma segura.</p>
+            <ul class="grilla-enlaces">
+                <li class="recurso"><span class="tipo-recurso" aria-hidden="true">🌐</span><div><span class="chip">Web</span><a href="https://agilemanifesto.org/iso/es/manifesto.html" target="_blank" rel="noopener noreferrer">Manifiesto Ágil (en español)</a><p>Los 4 valores y 12 principios, del sitio oficial.</p></div></li>
+                <li class="recurso"><span class="tipo-recurso" aria-hidden="true">📄</span><div><span class="chip">PDF</span><a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-Latin-South-American.pdf" target="_blank" rel="noopener noreferrer">La Guía de Scrum 2020</a><p>La guía oficial de Scrum, versión en español.</p></div></li>
+                <li class="recurso"><span class="tipo-recurso" aria-hidden="true">🌐</span><div><span class="chip">Web</span><a href="https://iso25000.com/index.php/normas-iso-25000/iso-25010" target="_blank" rel="noopener noreferrer">Portal ISO 25000</a><p>Explicación en español del modelo de calidad ISO/IEC 25010.</p></div></li>
+                <li class="recurso"><span class="tipo-recurso" aria-hidden="true">📚</span><div><span class="chip">Libro</span><a href="https://www.google.com/search?tbm=bks&amp;q=Pressman+Ingenier%C3%ADa+del+software+un+enfoque+pr%C3%A1ctico" target="_blank" rel="noopener noreferrer">Pressman – Ingeniería del software: un enfoque práctico</a><p>Libro clásico de la materia: procesos, calidad y pruebas.</p></div></li>
+                <li class="recurso"><span class="tipo-recurso" aria-hidden="true">📚</span><div><span class="chip">Libro</span><a href="https://www.google.com/search?tbm=bks&amp;q=Sommerville+Ingenier%C3%ADa+de+software" target="_blank" rel="noopener noreferrer">Sommerville – Ingeniería de software</a><p>Otro libro base, con capítulos sobre ágil y calidad.</p></div></li>
+                <li class="recurso"><span class="tipo-recurso" aria-hidden="true">🏛️</span><div><span class="chip">Organización</span><a href="https://www.istqb.org/" target="_blank" rel="noopener noreferrer">ISTQB</a><p>Organización internacional que certifica testers.</p></div></li>
+                <li class="recurso"><span class="tipo-recurso" aria-hidden="true">🏛️</span><div><span class="chip">Organización</span><a href="https://www.iso.org/" target="_blank" rel="noopener noreferrer">ISO</a><p>Organización Internacional de Normalización.</p></div></li>
+                <li class="recurso"><span class="tipo-recurso" aria-hidden="true">🌐</span><div><span class="chip">Web</span><a href="https://www.extremeprogramming.org/" target="_blank" rel="noopener noreferrer">Extreme Programming</a><p>Sitio con las reglas y prácticas de XP (en inglés).</p></div></li>
+            </ul>
+        </div>
+
+        <!-- US-15: EJERCICIOS -->
+        <div class="subseccion" id="ejercicios">
+            <h3>Ejercicios y Casos Prácticos</h3>
+            <div class="grilla-2">
+                <article class="ejercicio">
+                    <span class="chip">Ejercicio 1</span>
+                    <h4>Valores límite</h4>
+                    <p class="enunciado">Un campo acepta notas enteras del 1 al 10. ¿Qué valores probarías usando análisis de valores límite?</p>
+                    <button type="button" class="boton boton-secundario boton-solucion" aria-expanded="false" aria-controls="sol1">Mostrar solución</button>
+                    <div class="solucion" id="sol1" hidden><p>0, 1, 10 y 11 (los bordes y uno de cada lado). Se espera que 0 y 11 den error y que 1 y 10 se acepten.</p></div>
+                </article>
+                <article class="ejercicio">
+                    <span class="chip">Ejercicio 2</span>
+                    <h4>¿Qué modelo elegirías?</h4>
+                    <p class="enunciado">Una municipalidad quiere un sistema para cobrar una tasa con reglas fijadas por ordenanza que no van a cambiar. ¿Cascada o Scrum?</p>
+                    <button type="button" class="boton boton-secundario boton-solucion" aria-expanded="false" aria-controls="sol2">Mostrar solución</button>
+                    <div class="solucion" id="sol2" hidden><p>Cascada (o modelo en V): los requisitos son estables y conocidos desde el inicio, y seguramente se necesite documentación formal.</p></div>
+                </article>
+                <article class="ejercicio">
+                    <span class="chip">Caso práctico 3</span>
+                    <h4>Clasificar pruebas</h4>
+                    <p class="enunciado">Un desarrollador escribe un test para la función calcularDescuento() mirando sus if internos. ¿Qué nivel y qué tipo de prueba es?</p>
+                    <button type="button" class="boton boton-secundario boton-solucion" aria-expanded="false" aria-controls="sol3">Mostrar solución</button>
+                    <div class="solucion" id="sol3" hidden><p>Nivel: <strong>unitaria</strong> (una sola función). Tipo: <strong>caja blanca</strong> (se basa en el código interno).</p></div>
+                </article>
+                <article class="ejercicio">
+                    <span class="chip">Caso práctico 4</span>
+                    <h4>Límite WIP</h4>
+                    <p class="enunciado">Un equipo tiene 9 tareas “En proceso” y casi ninguna terminada. ¿Qué le recomendarías usando Kanban?</p>
+                    <button type="button" class="boton boton-secundario boton-solucion" aria-expanded="false" aria-controls="sol4">Mostrar solución</button>
+                    <div class="solucion" id="sol4" hidden><p>Poner un límite WIP (por ejemplo 3) y no empezar tareas nuevas hasta terminar las que están en curso. Así se reduce el tiempo de entrega.</p></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== FUNCIONALIDAD ADICIONAL JS ===================== -->
+    <section class="seccion" id="interactivo" aria-labelledby="tituloInteractivo">
+        <p class="etiqueta">Sección 6</p>
+        <h2 id="tituloInteractivo">Comparador y encuesta</h2>
+
+        <!-- US-18: COMPARADOR -->
+        <div class="subseccion" id="comparador">
+            <h3>Comparador de Metodologías</h3>
+            <form class="form-comparador" id="formComparador">
+                <fieldset>
+                    <legend>Elegí dos o más metodologías</legend>
+                    <div class="opciones-comparador">
+                        <label><input type="checkbox" name="metodo" value="cascada"> Cascada</label>
+                        <label><input type="checkbox" name="metodo" value="modeloV"> Modelo en V</label>
+                        <label><input type="checkbox" name="metodo" value="iterativo"> Iterativo e incremental</label>
+                        <label><input type="checkbox" name="metodo" value="scrum"> Scrum</label>
+                        <label><input type="checkbox" name="metodo" value="kanban"> Kanban</label>
+                        <label><input type="checkbox" name="metodo" value="xp"> XP</label>
+                    </div>
+                </fieldset>
+                <button type="button" class="boton boton-secundario" id="limpiarComparador">Limpiar selección</button>
+            </form>
+            <p class="mensaje-info" id="mensajeComparador" aria-live="polite">Seleccioná al menos dos metodologías para ver la tabla.</p>
+            <div class="tabla-adaptable" id="contenedorTabla" hidden>
+                <table id="tablaComparador">
+                    <caption>Tabla comparativa de las metodologías elegidas</caption>
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- US-19: ENCUESTA -->
+        <div class="subseccion" id="encuesta">
+            <h3>Encuesta de Preferencias Metodológicas</h3>
+            <p>Respondé sobre tu proyecto y te decimos qué metodología se adapta mejor.</p>
+
+            <div class="encuesta">
+                <p class="paso-texto" id="pasoTexto">Pregunta 1 de 5</p>
+                <div class="barra-progreso" role="progressbar" aria-label="Progreso de la encuesta" aria-valuemin="0" aria-valuemax="100" aria-valuenow="20" id="barraProgreso">
+                    <span id="rellenoProgreso" style="width:20%"></span>
+                </div>
+
+                <form id="formEncuesta" novalidate>
+                    <div id="preguntaActual"></div>
+                    <p class="error" id="errorEncuesta" role="alert"></p>
+                    <div class="botones-encuesta">
+                        <button type="button" class="boton boton-secundario" id="encuestaAnterior">← Anterior</button>
+                        <button type="button" class="boton" id="encuestaSiguiente">Siguiente →</button>
+                    </div>
+                </form>
+
+                <div class="resultado-encuesta" id="resultadoEncuesta" hidden aria-live="polite"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== US-16: SOBRE NOSOTROS ===================== -->
+    <section class="seccion" id="nosotros" aria-labelledby="tituloNosotros">
+        <p class="etiqueta">Sección 7</p>
+        <h2 id="tituloNosotros">Sobre nosotros</h2>
+        <p class="intro">Somos un equipo de estudiantes. Armamos este sitio aplicando lo que aprendimos: trabajamos con Scrum, cada uno con un rol.</p>
+
+        <div class="perfiles">
+            <article class="perfil" tabindex="0">
+                <div class="avatar" aria-hidden="true">SM</div>
+                <h3>Integrante 1</h3>
+                <p class="rol">Scrum Master</p>
+                <p class="institucion">Escuela técnica · 2026</p>
+                <p class="motivacion">“Me gusta organizar al equipo y que nadie se quede trabado.”</p>
+            </article>
+            <article class="perfil" tabindex="0">
+                <div class="avatar" aria-hidden="true">DI</div>
+                <h3>Integrante 2</h3>
+                <p class="rol">Diseñador/a</p>
+                <p class="institucion">Escuela técnica · 2026</p>
+                <p class="motivacion">“Quiero que aprender sea fácil y que la página se vea clara en cualquier pantalla.”</p>
+            </article>
+            <article class="perfil" tabindex="0">
+                <div class="avatar" aria-hidden="true">PR</div>
+                <h3>Integrante 3</h3>
+                <p class="rol">Programador/a</p>
+                <p class="institucion">Escuela técnica · 2026</p>
+                <p class="motivacion">“Me motiva hacer que las cosas funcionen con JavaScript.”</p>
+            </article>
+            <article class="perfil" tabindex="0">
+                <div class="avatar" aria-hidden="true">TE</div>
+                <h3>Integrante 4</h3>
+                <p class="rol">Tester</p>
+                <p class="institucion">Escuela técnica · 2026</p>
+                <p class="motivacion">“Busco los errores antes que el usuario. Si algo se rompe, lo encuentro.”</p>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- ===================== US-17: CONTACTO ===================== -->
+    <section class="seccion" id="contacto" aria-labelledby="tituloContacto">
+        <p class="etiqueta">Sección 8</p>
+        <h2 id="tituloContacto">Contacto</h2>
+        <p class="intro">¿Tenés una consulta o una sugerencia? Escribinos. Los campos con * son obligatorios.</p>
+
+        <form class="formulario" id="formContacto" novalidate>
+            <div class="campo-grupo">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" name="nombre" class="campo" autocomplete="name" aria-describedby="error-nombre" maxlength="60">
+                <p class="error" id="error-nombre"></p>
+            </div>
+            <div class="campo-grupo">
+                <label for="email">Correo electrónico *</label>
+                <input type="email" id="email" name="email" class="campo" autocomplete="email" aria-describedby="error-email" maxlength="100">
+                <p class="error" id="error-email"></p>
+            </div>
+            <div class="campo-grupo">
+                <label for="tipo">Tipo de mensaje *</label>
+                <select id="tipo" name="tipo" class="campo" aria-describedby="error-tipo">
+                    <option value="">Elegí una opción</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="feedback">Feedback / sugerencia</option>
+                    <option value="error">Encontré un error en el sitio</option>
+                </select>
+                <p class="error" id="error-tipo"></p>
+            </div>
+            <div class="campo-grupo">
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" class="campo" rows="5" maxlength="500" aria-describedby="error-mensaje contadorMensaje"></textarea>
+                <p class="ayuda" id="contadorMensaje">0 / 500 caracteres</p>
+                <p class="error" id="error-mensaje"></p>
+            </div>
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+        <div class="confirmacion" id="confirmacion" role="status" aria-live="polite" hidden></div>
+    </section>
+
+</main>
+
+<!-- US-07 / US-09: LIGHTBOX (se reutiliza para todos los diagramas) -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada del diagrama" hidden>
+    <div class="lightbox-contenido">
+        <button class="lightbox-cerrar" id="cerrarLightbox" type="button" aria-label="Cerrar imagen ampliada">×</button>
+        <img id="imagenAmpliada" src="" alt="">
+        <p id="pieAmpliado"></p>
+    </div>
+</div>
+
+<button type="button" class="boton-arriba" id="botonArriba" aria-label="Volver arriba">↑</button>
+
+<footer>
+    <div class="pie">
+        <span>© 2026 SGCS - Proyecto educativo</span>
+        <a href="#inicio" class="volver">Volver al inicio ↑</a>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

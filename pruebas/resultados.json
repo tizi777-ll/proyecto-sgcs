@@ -1,0 +1,207 @@
+{
+  "fecha": "2026-11-06T01:20:42.472Z",
+  "aprobadas": 40,
+  "total": 40,
+  "resultados": [
+    {
+      "id": "US-01",
+      "nombre": "Todos los enlaces internos (#) llevan a un elemento que existe",
+      "ok": true
+    },
+    {
+      "id": "US-01",
+      "nombre": "Las tarjetas de la portada llevan a su sección",
+      "ok": true
+    },
+    {
+      "id": "US-01",
+      "nombre": "Menú hamburguesa: en celular empieza cerrado y se abre/cierra",
+      "ok": true
+    },
+    {
+      "id": "US-01",
+      "nombre": "Se resalta en el menú la sección que se está viendo",
+      "ok": true
+    },
+    {
+      "id": "US-01 / US-05",
+      "nombre": "Sin desborde horizontal en Desktop, Tablet y Mobile (con capturas)",
+      "ok": true
+    },
+    {
+      "id": "US-02",
+      "nombre": "Jerarquía de encabezados: un solo h1 y ningún salto de nivel",
+      "ok": true
+    },
+    {
+      "id": "US-02",
+      "nombre": "Pestañas ISO 9126 / ISO 25000 cambian el contenido (clic y flechas)",
+      "ok": true
+    },
+    {
+      "id": "US-03",
+      "nombre": "Las tarjetas se dan vuelta con clic del mouse",
+      "ok": true
+    },
+    {
+      "id": "US-03",
+      "nombre": "Las tarjetas se dan vuelta con toque (pantalla táctil)",
+      "ok": true
+    },
+    {
+      "id": "US-04",
+      "nombre": "Los filtros muestran y ocultan las tarjetas correctas",
+      "ok": true
+    },
+    {
+      "id": "US-05",
+      "nombre": "La línea de tiempo se ilumina paso a paso",
+      "ok": true
+    },
+    {
+      "id": "US-06",
+      "nombre": "La navegación interna lleva a Cascada, Modelo en V e Iterativo",
+      "ok": true
+    },
+    {
+      "id": "US-06",
+      "nombre": "Ventajas en caja verde y desventajas en caja roja en los 3 modelos",
+      "ok": true
+    },
+    {
+      "id": "US-07 / US-09",
+      "nombre": "Todas las imágenes tienen alt, pie de foto y pesan poco",
+      "ok": true
+    },
+    {
+      "id": "US-07 / US-09",
+      "nombre": "El lightbox abre cualquier diagrama y se cierra con Escape o con la X",
+      "ok": true
+    },
+    {
+      "id": "US-09",
+      "nombre": "Los diagramas se ven nítidos en pantallas Retina (SVG vectorial)",
+      "ok": true
+    },
+    {
+      "id": "US-08",
+      "nombre": "Se muestran los 4 valores y los 12 principios del Manifiesto Ágil",
+      "ok": true
+    },
+    {
+      "id": "US-08",
+      "nombre": "El índice lleva a Principios, Roles y Artefactos",
+      "ok": true
+    },
+    {
+      "id": "US-10",
+      "nombre": "Pestañas Roles / Eventos / Artefactos",
+      "ok": true
+    },
+    {
+      "id": "US-10",
+      "nombre": "Cronograma: días y duraciones correctas según las semanas del sprint",
+      "ok": true
+    },
+    {
+      "id": "US-11",
+      "nombre": "Mover con botones respeta el límite WIP de 2",
+      "ok": true
+    },
+    {
+      "id": "US-11",
+      "nombre": "Arrastrar y soltar (drag and drop) mueve la tarjeta",
+      "ok": true
+    },
+    {
+      "id": "US-11",
+      "nombre": "El tablero se mantiene igual después de recargar la página",
+      "ok": true
+    },
+    {
+      "id": "US-12",
+      "nombre": "Buscador: mayúsculas, minúsculas y acentos dan el mismo resultado",
+      "ok": true
+    },
+    {
+      "id": "US-12",
+      "nombre": "Caracteres especiales y términos inexistentes muestran 'Sin resultados'",
+      "ok": true
+    },
+    {
+      "id": "US-12",
+      "nombre": "Índice A-Z: letras sin términos desactivadas y lista en orden",
+      "ok": true
+    },
+    {
+      "id": "US-13",
+      "nombre": "El acordeón abre y cierra sin romper el diseño",
+      "ok": true
+    },
+    {
+      "id": "US-14",
+      "nombre": "Enlaces externos con target=_blank y rel=noopener noreferrer",
+      "ok": true
+    },
+    {
+      "id": "US-15",
+      "nombre": "Las soluciones están ocultas al cargar y el botón cambia de estado",
+      "ok": true
+    },
+    {
+      "id": "US-16",
+      "nombre": "Efecto hover en los perfiles y tarjetas alineadas",
+      "ok": true
+    },
+    {
+      "id": "US-17",
+      "nombre": "Cada campo tiene su <label> vinculado",
+      "ok": true
+    },
+    {
+      "id": "US-17",
+      "nombre": "Enviar vacío muestra los 4 errores",
+      "ok": true
+    },
+    {
+      "id": "US-17",
+      "nombre": "Correos con sintaxis inválida son rechazados",
+      "ok": true
+    },
+    {
+      "id": "US-17",
+      "nombre": "Mensaje solo con espacios no se acepta",
+      "ok": true
+    },
+    {
+      "id": "US-17",
+      "nombre": "Caracteres especiales se muestran como texto y se confirma el envío",
+      "ok": true
+    },
+    {
+      "id": "US-18",
+      "nombre": "Matriz de selección: la tabla se crea y se limpia sin errores en consola",
+      "ok": true
+    },
+    {
+      "id": "US-19",
+      "nombre": "Algoritmo: distintas rutas de respuesta dan el resultado correcto",
+      "ok": true
+    },
+    {
+      "id": "US-19",
+      "nombre": "Asistente: valida la respuesta, avanza la barra y muestra el resumen",
+      "ok": true
+    },
+    {
+      "id": "General",
+      "nombre": "La página carga sin errores de JavaScript en ninguna resolución",
+      "ok": true
+    },
+    {
+      "id": "General",
+      "nombre": "Capturas de página completa para el informe",
+      "ok": true
+    }
+  ]
+}

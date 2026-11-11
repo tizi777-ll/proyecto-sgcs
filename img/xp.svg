@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-labelledby="t"><title id="t">Bucle de trabajo en XP</title>
+<rect width="640" height="280" fill="#fff"/>
+<g font-family="Arial, sans-serif" font-size="13" fill="#2d3b50" text-anchor="middle">
+<ellipse cx="320" cy="140" rx="230" ry="100" fill="none" stroke="#c9d6e6" stroke-width="8"/>
+<g stroke="#3268ad" stroke-width="1.5" fill="#edf4fd">
+<rect x="245" y="20" width="150" height="40" rx="20"/><rect x="465" y="70" width="160" height="40" rx="20"/><rect x="465" y="170" width="160" height="40" rx="20"/><rect x="245" y="220" width="150" height="40" rx="20" fill="#e9f6ee" stroke="#39845b"/><rect x="15" y="120" width="170" height="40" rx="20"/></g>
+<text x="320" y="45">Historias de usuario</text><text x="545" y="95">Planificación</text><text x="545" y="195">Pareja + TDD</text><text x="320" y="245">Entrega pequeña</text><text x="100" y="138">Integración continua</text><text x="100" y="153" font-size="11">y refactorización</text>
+<text x="320" y="135" font-weight="bold" font-size="15">Iteración XP</text><text x="320" y="154" font-size="12" fill="#5f6b7a">1 a 2 semanas</text>
+<g fill="#2d65ad"><path d="M455 70 l12 -2 -6 11z"/><path d="M548 118 l6 12 -12 -2z" transform="rotate(10 548 118)"/><path d="M405 236 l-12 3 6 -11z"/><path d="M128 172 l-4 -12 11 5z"/><path d="M190 52 l10 -7 -1 12z"/></g>
+<text x="320" y="200" font-size="11" fill="#5f6b7a">↺ opinión del cliente</text>
+</g></svg>
